@@ -1,0 +1,72 @@
+#container{
+     position: relative;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 47%;
+     height: 40%;
+    }
+#overlay{
+    background-color:Black;
+
+}
+body{
+    background-image: url(../img/2.jpg);
+    }
+.logo img {
+    position: fixed;
+    margin:5% 1% 0% 0%;
+
+}
+#log
+{
+width: 15%;
+    padding-right: 2%;
+    
+}
+#logo
+{
+width: 20%;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width: 320px) {
+    #container {
+        padding-top: 20%;
+        width: 70%;
+    }
+#log
+{
+width: 100%;
+    padding-right: 5%;
+
+}
+#logo
+{
+width: 100%;
+    padding-left: 5%;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+    #container {
+        padding-top: 20%;
+        width: 70%;
+        height: 100%;
+    }
+#log
+{
+width: 30%;
+
+    padding-right: 5%;
+}
+#logo
+{
+width: 30%;
+    padding-left: 5s;
+}
+
+}
